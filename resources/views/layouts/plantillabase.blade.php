@@ -12,7 +12,7 @@
     <title>CRUD</title>
   </head>
   <body>
-    <h1 class="bg-primary text-white text-center">CRUD con Laravel 8 y Bootstrap 5</h1>
+    <h1 class="bg-primary text-white text-center">Activos tigo</h1>
 
     <div class="container">
         @yield('contenido')

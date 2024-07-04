@@ -45,8 +45,8 @@ return [
     |
     */
 
-    'logo' => '<b>Info</b>DP',
-    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+    'logo' => '<b>SISTEMA</b>ACTIVOS',
+    'logo_img' => 'vendor/adminlte/dist/img/tigo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
@@ -242,8 +242,8 @@ return [
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'Artículos',
-            'url'         => 'articulos',
+            'text'        => 'Activos',
+            'url'         => 'activos',
             'icon'        => 'far fa-fw fa-file',
             'label'       => 'CRUD',
             'label_color' => 'warning',
@@ -256,7 +256,7 @@ return [
         ],
         [
             'text' => 'change_password',
-            'url'  => 'admin/settings',
+            'url'  => 'user/profile',
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
@@ -297,21 +297,11 @@ return [
                 ],
             ],
         ],
-        ['header' => 'labels'],
+        ['header' => 'Opciones'],
         [
-            'text'       => 'important',
+            'text'       => 'Generar bajas',
             'icon_color' => 'red',
-            'url'        => '#',
-        ],
-        [
-            'text'       => 'warning',
-            'icon_color' => 'yellow',
-            'url'        => '#',
-        ],
-        [
-            'text'       => 'information',
-            'icon_color' => 'cyan',
-            'url'        => '#',
+            'url'        => 'bajas',
         ],
     ],
 
